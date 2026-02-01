@@ -1,0 +1,66 @@
+/* filepath: /styles/navbar.css */
+
+/* Navbar styling */
+#navbar {
+	background-color: #ffffff; /* White background */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	position: sticky; /* Make the navbar stick to the top */
+	top: 0;
+	z-index: 1000; /* Ensure it stays above other elements */
+	padding-left: 1rem;
+	padding-right: 2.5rem; /* Add spacing around the navbar */
+}
+
+/* Flex container for logo and links */
+#nav-container {
+	display: flex;
+	justify-content: space-between; /* Space between logo and links */
+	align-items: center; /* Vertically align items */
+}
+
+/* Logo styling */
+#logo img {
+	max-height: 125px; /* Adjust the height of the logo */
+	width: auto; /* Maintain the aspect ratio */
+	display: block; /* Ensure no extra space around the image */
+	background-color: transparent; /* Ensure the background remains transparent */
+}
+
+/* Navigation links */
+#nav-links ul {
+	list-style: none;
+	display: flex; /* Arrange links horizontally */
+	gap: 1.5rem; /* Space between links */
+	margin: 0;
+	padding: 0;
+}
+
+#nav-links ul li {
+	display: inline-block;
+}
+
+#nav-links ul li a {
+	text-decoration: none;
+	color: #333333; /* Dark gray for links */
+	font-size: 1rem;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+#nav-links ul li a:hover {
+	color: #0073e6; /* Blue color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+	#navbar {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 1rem;
+	}
+
+	#navbar ul {
+		flex-direction: column;
+		gap: 1rem;
+	}
+}

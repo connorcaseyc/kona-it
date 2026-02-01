@@ -1,0 +1,35 @@
+/* filepath: /styles/main-page-content.css */
+
+#quick-intro {
+	padding: 120px;
+}
+
+#key-services {
+	background-color: black;
+	color: white;
+	padding: 120px;
+}
+
+#who-we-serve {
+	padding: 120px;
+}
+
+#call-to-action {
+	background-color: black;
+	color: white;
+	padding: 120px;
+	text-align: center;
+}
+
+#contact-us-now {
+	padding: 120px;
+	text-align: center;
+}
+
+#card-img {
+	height: auto;
+	width: 250px;
+	justify-content: center;
+	/* width: 100%; */
+	/* margin-top: 15px; */
+}

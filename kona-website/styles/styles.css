@@ -1,0 +1,6 @@
+/* filepath: /styles/styles.css */
+@import url('./global-container.css');
+@import url('./navbar.css');
+@import url('./main-page-content.css');
+@import url('./header.css');
+@import url('./footer.css');

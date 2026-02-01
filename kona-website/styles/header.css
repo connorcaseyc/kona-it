@@ -1,0 +1,42 @@
+/* filepath: /styles/header.css */
+/* Container for the header stack */
+#header-stack {
+	position: relative;
+	width: 100%;
+	height: 400px; /* Adjust height as needed */
+	overflow: hidden;
+    padding: 0;
+}
+
+/* Style for the image */
+#header-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+/* Style for the text overlay */
+#header-text-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	z-index: 2; /* Ensures it is above the image */
+}
+
+#header-text-overlay h1 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+#header-text-overlay h3 {
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+}
+
+#main-header-text {
+	font-family: "Source Code Pro", monospace;
+}
